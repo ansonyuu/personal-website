@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anson Yu</title>
+
+        <!-- Stylesheets-->
+        <link rel="stylesheet" href="watermelon.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Fonts -->
+        <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <header>
+            <div class="nav-bar">
+                <nav class="nav">
+                    <div class='logo'>
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <ul class="nav-list wm-flex-row">
+                            <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                            <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="#photos" class="nav-link">Photos</a></li>                            <li class="nav-item"><a href="#joke" class="nav-link">Jokes</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line-1" id="line-1"></div>
+                        <div class="line-2" id="line-2"></div>
+                        <div class="line-3" id="line-3"></div>
+                     </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Landing Page -->
+        <section class="landing wm-section">
+            <div class="landing-content wm-flex-column wm-flex-33">
+                <h1 class="title title-landing">Hi I'm Anson</h1>
+                <h2 class="subtitle subtitle-landing">Welcome to my humble abode</h2>
+                <div class="wm-flex-row">
+                    <ul class="wm-icon">
+                        <li><a href="https://www.linkedin.com/in/anson-y/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCwWZhJbtgGC6XBQMfSxwdrA"><i class="fab fa-youtube-square"></i></a></li>
+                        <li><a href="https://www.facebook.com/howaboutyu"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/anson.yu/"><i class="fab fa-instagram-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="wm-section wm-flex-row" id="section-about">
+            <div class="wm-flex-33 about-photo">
+                <img src="img/me.jpeg" alt="A photo of Anson Yu">
+            </div>
+            <div class="wm-flex-66">
+                    <h3 class="wm-section-title">🍈 About Me</h3>
+                <p class="section-text"><strong>I’m a student interested accessible design and 
+                sustainability.</strong><br><br>Currently studying Systems Design Engineering at 
+                Waterloo with a focus on economics and society. When I’m not knee deep 
+                in non-fiction, you can find me making short films or beekeeping! I can also be
+                found participating in film festivals, feverishly spreadsheeting for event 
+                planning purposes, or learning a new programming language off of YouTube.
+                Feel free to snoop around or reach out via ansonyu24@gmail.com.</p><br>
+                <div class="about-buttons wm-flex-row">
+                    <form action="https://www.notion.so/ansonyu/06ab447ff03645ef940a160f3e2e804e?v=1d0230d93c4c41b995dd77d3964bf9c0" method="get" target="_blank">
+                        <button class="wm-button" id="reading-list">Book List</button>
+                    </form>
+                    <form method="get" action="assets/Resume - Anson Yu.pdf" target="_blank">
+                    <button class="wm-button" id="resume"> Resume</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="wm-section" id="section-projects">
+            <h3 class=".wm-section-title">📗 Projects</h3>
+            <div class="wm-flex-row wm-flex-33" id="">
+                <div class="wm-card wm-hover wm-flex-column" id="project-reflect">
+                    <img class="reframe" src="img/project-reflect.png" alt="A photo of reflect">
+                    <h4>reflect.</h4>
+                    <ul class="wm-hl">
+                        <li>Programming</li>
+                        <li>UI/UX</li>
+                    </ul>
+                    <p>reflect is a digitally mindful chrome and firefox extension that encourages
+                        users to reflect on their relationship with technology.
+                    </p>
+                </div>
+                <div class="wm-card wm-hover wm-flex-column" id="project-covid">
+                    <img class="reframe" src="img/project-covid.jpg" alt="A photo of Project 1">
+                    <h4>COVID Relief Fund</h4>
+                    <ul class="wm-hl">
+                        <li>Community</li>
+                        <li>Project Management</li>
+                    </ul>
+                    <p>The SDC COVID-19 Relief Fund was a joint effort between 10 
+                        organizations to provide PPE to senior homes. In the end, 
+                        we were able to provide a total of 22,000 masks to 32 homes.
+                    </p>
+                </div>
+                <div class="wm-card wm-hover wm-flex-column" id="project-bee">
+                    <img class="reframe" src="img/project-bee.jpg" alt="A photo of Beekeeping">
+                    <h4>Beekeeping Club</h4>
+                    <ul class="wm-hl">
+                        <li>Community</li>
+                        <li>Environmental</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Rerum libero, tempore molestiae quo cupiditate 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video -->
+        <section class="wm-section" id="section-video">
+            <h3 class=".wm-section-title">🎥 Cinema Reel</h3>
+                <div class="wm-flex-column" id="video-cinematogrpahy">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+        </section>
+
+        <!-- Journal -->
+        <section class="wm-section" id="section-journal">
+            <h3 class=".wm-section-title">📖 Journal</h3>
+            <div class="wm-flex-row wm-flex-33" id="">
+                <div class="wm-card wm-hover wm-flex-column" id="journal-1">
+                    <img src="img/journal-1.jpg" alt="A photo of Journal 1">
+                    <h4>A Day in the Life</h4>
+                    <p><strong>May 22nd, 2020</strong>
+                        <br>Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Soluta, et hic modi sapiente quasi quia delectus,
+                          vitae omnis rem corrupti a repudiandae dicta. Tempora hic 
+                          eveniet labore veniam, veritatis sunt.</p>
+                </div>
+                <div class="wm-card wm-hover wm-flex-column" id="journal-2">
+                    <img src="img/journal-2.jpg" alt="A photo of Journal 2">
+                    <h4>A Day in the Life</h4>
+                    <p><strong>May 22nd, 2020</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Soluta, et hic modi sapiente quasi quia delectus,
+                         vitae omnis rem corrupti a repudiandae dicta. Tempora hic 
+                         eveniet labore veniam, veritatis sunt</p>
+                </div>
+                <div class="wm-card wm-hover wm-flex-column" id="journal-3">
+                    <img src="img/journal-3.jpg" alt="A photo of Journal 3">
+                    <h4>A Day in the Life</h4>
+                    <p><strong>May 22nd, 2020</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Soluta, et hic modi sapiente quasi quia delectus,
+                         vitae omnis rem corrupti a repudiandae dicta. Tempora hic 
+                         eveniet labore veniam, veritatis sunt</p>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <div class="wm-section wm-flex-column footer-content">
+            <div class="wm-center footer-text">
+                <h2 class="mb-30">I'd love to meet you</h2><br>
+                <p>Made by Anson Yu &copy; 2020 </p>
+            </div>    
+            <div class="wm-flex-row">
+                <ul class="wm-icon" id="icons-light">
+                    <li><a href="https://www.linkedin.com/in/anson-y/"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCwWZhJbtgGC6XBQMfSxwdrA"><i class="fab fa-youtube-square"></i></a></li>
+                    <li><a href="https://www.facebook.com/howaboutyu"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/anson.yu/"><i class="fab fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</html>
