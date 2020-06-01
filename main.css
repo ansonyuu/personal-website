@@ -1,0 +1,241 @@
+/* General Styling*/
+@import "watermelon.css"; 
+
+@font-face { 
+    font-family: Abril Display; 
+    src: url('assets/abril.otf'); 
+} 
+
+@font-face { 
+    font-family: Acumin; 
+    src: url('assets/acumin.otf'); 
+} 
+
+/* * {
+    overflow-x: hidden;
+    overflow-y: scroll
+} */
+
+body{
+    overflow-x: hidden;
+    font-family: 'Acumin', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Display';
+    color: var(--wm-colours-dark);
+}
+
+h3 {
+    font-size: 2.5rem;
+    padding-bottom: 0.25rem;
+}
+
+p {
+    margin: 1px 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+.reframe {
+    height: auto;
+    width: 16rem;
+    padding: 1rem;
+}
+
+/* Navigation*/
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    justify-content: space-around;
+    width:40%;
+    font-size: 1.2em;
+}
+
+.logo{
+    max-width: 1em;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: var(--wm-colours-dark);
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.burger{
+    display: none;
+}
+
+.burger div {
+    width: 2rem;
+    height: 0.25rem;
+    margin: 0.25rem;
+    background-color: var(--wm-colours-light);
+    
+}
+
+/* Landing */
+
+.landing {
+    height: 100vh;
+    width: 100%;
+    background: url('assets/personal-olive.svg') no-repeat left;
+  }
+
+.landing-content {
+    padding-top: 15%;
+    width: 50%;
+
+}
+
+.landing h1{
+    font-size: 9rem;
+    margin-bottom: 0em;
+}
+
+.landing h2{
+    font-size: 3rem;
+}
+
+.landing li{
+    max-height: 2em;
+    color: var(--wm-colours-dark)
+}
+
+/* About */
+
+.about-photo img{
+    height: 15em;
+    width: 15em;
+    overflow: hidden;
+    padding: 1em;
+}
+
+/* Projects */
+
+
+/* Reel */
+/* Journal */
+/* Footer */
+
+footer {
+    background-color: var(--wm-colours-dark);
+}
+
+.footer-text h2, .footer-text p{
+    color: var(--wm-colours-light);
+}
+
+.footer-content {
+    padding: 1em 0.5em;
+    align-items: center;
+    justify-content: space-around
+} 
+
+#icons-light {
+    max-height: 1rem;
+    color: var(--wm-colours-light)
+}
+
+/* Media */
+
+@media screen and (max-width:1024px){
+    .nav-list{
+        list-style: none;
+        justify-content: space-around;
+        width:50%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav {
+        background-color: var(--wm-colours-dark);
+    }
+
+    .nav-list{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: var(--wm-colours-dark);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease;
+        
+    }
+
+    .nav-list li{
+        opacity: 0;
+        color: var(--wm-colours-light);
+    }
+    
+    .burger{
+        display:block;
+    }
+
+    .nav-item {
+        color: var(--wm-colours-light)
+    }
+
+    .nav-link {
+        color: var(--wm-colours-light)
+    }
+
+    a:link, a:visited{
+        text-decoration: none;
+        color: var(--wm-colours-light);
+    }
+
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+
+/* Keyframes */
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0; 
+        transform: translateX(50px); 
+    } to {
+        opacity: 1; 
+        transform: translateX(0px); 
+    }
+}
+
+.toggle .line-1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line-3{
+    opacity: 0;
+}
+
+.toggle .line-3{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
