@@ -128,6 +128,9 @@ a:hover {
 
 /* Projects */
 
+#section-projects{
+    display: block;
+}
 
 /* Reel */
 /* Journal */
@@ -188,7 +191,6 @@ footer {
     }
 
     .nav-list li{
-        opacity: 0;
         color: var(--wm-colours-light);
     }
     
