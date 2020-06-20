@@ -55,9 +55,8 @@ ul.wm-hl li {
 }
 
 ul.wm-icon li {
+  height: 1rem;
   display:inline-block;
-  border-style: none;
-  font-size: 0.9rem;
   margin-right: 3px;
   padding: 0.3rem;
   border-radius: 2px;
@@ -125,7 +124,7 @@ a.wm-a {
 }
 
 .wm-section {
-  padding: 0 20vw 75px 20vw;
+  padding: 0 15vw 75px 15vw;
 }
 
 /* Centre Div Horizontal */

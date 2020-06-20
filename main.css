@@ -17,6 +17,8 @@
 } */
 
 body{
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     font-family: 'Acumin', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -43,8 +45,8 @@ p {
   }
 
 .reframe {
-    height: auto;
-    width: 16rem;
+    height: 10rem;
+    width: 10rem;
     padding: 1rem;
 }
 
@@ -65,7 +67,11 @@ p {
 }
 
 .logo{
-    max-width: 1em;
+    height: auto;
+    width: 1.5rem;
+    padding: 1.5rem;
+    justify-content: left;
+
 }
 
 a:link, a:visited{
