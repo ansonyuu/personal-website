@@ -139,7 +139,6 @@ a:hover {
 /* Footer */
 
 footer {
-    justify-content: center;
     background-color: var(--wm-colours-dark);
 }
 
@@ -148,7 +147,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: ;
 } 
 
 .footer-content h2{
@@ -157,14 +155,11 @@ footer {
 
 .footer-content p{
     color: var(--wm-colours-light);
-    position: absolute;
-    align-items: flex-end;
-    justify-content: flex-end;
+    
 }
 
 
 #icons-light {
-    height: 3rem;
     color: var(--wm-colours-light)
 }
 
