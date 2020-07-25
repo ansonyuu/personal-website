@@ -101,7 +101,7 @@ a:hover {
     width: 100vw;
     position: relative;
     background: url('assets/personal-olive.svg') no-repeat left;
-  }
+}
 
 .landing-content {
     padding-top: 5%;
@@ -167,6 +167,24 @@ footer {
     height: 3rem;
     color: var(--wm-colours-light)
 }
+
+/* Construction */
+
+.construction{
+    height: 85vh;
+    width: 100vw;
+    position: relative;
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+}
+
+.construction-content {
+    padding-top: 5%;
+    width: 50%;
+
+}
+
 
 /* Media */
 
