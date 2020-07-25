@@ -10,9 +10,9 @@
 /* Card Styling */
 .wm-card {
   cursor: pointer;
-  padding: 0.25rem 1rem;
-  margin: 1.5rem 0.25rem;
-  border-radius: 5px;
+  padding: 0.75rem 0.75rem;
+  margin: 0.75rem 0.75rem;
+  /* border-radius: 5px; */
   background-color: var(--wm-colours-light);
   box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16)
 }
@@ -55,7 +55,7 @@ ul.wm-hl li {
 }
 
 ul.wm-icon li {
-  height: 1rem;
+  height: 2rem;
   display:inline-block;
   margin-right: 3px;
   padding: 0.3rem;
@@ -124,7 +124,7 @@ a.wm-a {
 }
 
 .wm-section {
-  padding: 0 15vw 75px 15vw;
+  padding: 0 17.5vw 70px 17.5vw;
 }
 
 /* Centre Div Horizontal */
@@ -138,10 +138,12 @@ a.wm-a {
 }
 
 .wm-flex-25 {
+  display: flex;
   flex: 0 0 25%;
 }
 
 .wm-flex-33 {
+
   flex: 0 0 33%;
 }
 
