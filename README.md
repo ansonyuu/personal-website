@@ -1,6 +1,6 @@
 # Personal Site 🌳
 
-Check it out [here!](ansonyu.ca) 
+Check it out [here!](http://www.ansonyu.ca/) 
 
 ## What's this?
 
