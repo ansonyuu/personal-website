@@ -55,9 +55,8 @@ ul.wm-hl li {
 }
 
 ul.wm-icon li {
-  height: 2rem;
   display:inline-block;
-  margin-right: 3px;
+  /* margin-right: 3px; */
   padding: 0.3rem;
   border-radius: 2px;
   color: var(--wm-colours-light);
