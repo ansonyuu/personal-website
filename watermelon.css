@@ -17,6 +17,16 @@
   box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16)
 }
 
+.wm-long-card {
+  cursor: pointer;
+  padding: 0.75rem 0.75rem;
+  margin: 0.75rem 0.75rem;
+  /* border-radius: 5px; */
+  background-color: var(--wm-colours-light);
+  box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16)
+}
+
+
 .wm-clear {
   padding: 0 !important;
   margin: 0 !important;
@@ -124,6 +134,10 @@ a.wm-a {
 
 .wm-section {
   padding: 0 17.5vw 70px 17.5vw;
+}
+
+.wm-long-section {
+  padding: 0 17.5vw 5px 17.5vw;
 }
 
 /* Centre Div Horizontal */

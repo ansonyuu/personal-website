@@ -48,8 +48,10 @@ p {
   }
 
 .reframe {
-    height: 20vh;
-    width: auto;
+    height: 9rem;
+    width: 9rem;
+    object-fit: cover;
+    
     padding: 1rem;
 }
 
@@ -117,12 +119,12 @@ a:hover {
 }
 
 .landing h1{
-    font-size: 9rem;
+    font-size: 7rem;
     margin-bottom: 0em;
 }
 
 .landing h2{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .landing li{
@@ -210,13 +212,13 @@ footer {
     }
 
     .nav {
-        
+        position: relative;
         justify-content: flex-end;
         background-color: var(--wm-colours-dark);
     }
 
     .nav-list{
-        position: fixed;
+        position: absolute;
         right: 0px;
         height: 92vh;
         top: 8vh;
