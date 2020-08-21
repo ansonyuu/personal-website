@@ -12,7 +12,7 @@
   cursor: pointer;
   padding: 0.75rem 0.75rem;
   margin: 0.75rem 0.75rem;
-  /* border-radius: 5px; */
+  border-radius: 5px;
   background-color: var(--wm-colours-light);
   box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16)
 }
@@ -21,7 +21,7 @@
   cursor: pointer;
   padding: 0.75rem 0.75rem;
   margin: 0.75rem 0.75rem;
-  /* border-radius: 5px; */
+  border-radius: 5px;
   background-color: var(--wm-colours-light);
   box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16)
 }
@@ -65,12 +65,12 @@ ul.wm-hl li {
 }
 
 ul.wm-icon li {
-  display:inline-block;
-  /* margin-right: 3px; */
+  display: inline-block;
   padding: 0.3rem;
   border-radius: 2px;
   color: var(--wm-colours-light);
   margin-bottom: 0.2rem;
+  z-index: 7
 }
 
 /* Button/Input Styles */

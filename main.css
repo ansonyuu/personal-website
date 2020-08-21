@@ -75,14 +75,6 @@ p {
     padding: 2%;
 }
 
-.logo{
-    height: auto;
-    width: 1.5rem;
-    padding: 1.5rem;
-    justify-content: left;
-
-}
-
 a:link, a:visited{
     text-decoration: none;
     color: var(--wm-colours-dark);
@@ -110,30 +102,99 @@ a:hover {
     height: 85vh;
     width: 100vw;
     position: relative;
-    background: url('assets/personal-olive.svg') no-repeat left;
+    /* background: url('assets/personal-olive.svg') no-repeat left; */
+}
+
+
+.scene {
+    position: absolute;
+    max-width:100vw;
+    max-height:75vh;
+    height:auto;
+    bottom: 0;
+	transform: translateY(var(--translateY));
+	will-change: transform;
+}
+
+#landing-0 {
+    z-index: 3;
+    left: -5;
+    bottom: -5
+}
+
+#landing-1-right {
+    z-index: 2;
+    right:0;
+    max-height:105vh;
+    
+    
+}
+#landing-1-left {
+    z-index: 2; 
+    left:0; 
+    max-height:105vh;
+}
+
+
+#landing-2 {
+    z-index: 1;
+    left:0;
+}
+
+#landing-3 {
+    z-index: 0;
+    right:0;
+}
+
+#landing-4 {
+    z-index: -1;
+    left:-10;
+}
+
+#landing-5 {
+    z-index: -2;
+    right:0;
+}
+
+
+#landing-6 {
+    z-index: -3;
+    width:100vw;
 }
 
 .landing-content {
-    padding-top: 5%;
-    width: 50%;
+    width: 70%;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .landing h1{
-    font-size: 7rem;
-    margin-bottom: 0em;
+    font-size: 2.5rem;
+    margin-bottom: 0.1rem;
+    text-align: center;
 }
 
 .landing h2{
-    font-size: 2rem;
+    font-size: 1rem;
+    text-align: center;
 }
 
-.landing li{
+.landing ul{
+    text-align: center;
+    justify-content: center;
+    z-index: 7;
+}
+
+.fab-dark {
     font-size: 2rem;
-    color: var(--wm-colours-dark)
+    color: var(--wm-colours-dark);
 }
 
 /* About */
 
+#section-about{
+    padding-top:5em
+}
 .about-photo img{
     height: 15em;
     width: 15em;
@@ -150,8 +211,6 @@ a:hover {
 
 footer {
     background-color: var(--wm-colours-dark);
-    display: grid;
-    place-items: center;
 }
 
 .footer-content {
@@ -173,10 +232,12 @@ footer {
 
 #icons-light {
     font-size: large;
-    color: var(--wm-colours-light);
-    z-index: 1;
+    z-index: 4;
 }
 
+.fab-light {
+    color: var(--wm-colours-light)
+}
 /* Construction */
 
 .construction{
@@ -226,7 +287,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 40%;
         transform: translateX(100%);
         transition: transform 0.5s ease;
         
@@ -253,12 +314,20 @@ footer {
         color: var(--wm-colours-light);
     }
 
+    #landing-1-right {
+       visibility: hidden;
+    
+    }
+    #landing-1-left {
+        visibility: hidden;
+    }
+
     .landing {
         background: none;
       }
 
     .landing h1{
-        margin-top: 95%;
+        margin-top: 40%;
         font-size: 5.5rem;
     }
     
@@ -283,7 +352,7 @@ footer {
 @keyframes navLinkFade{
     from{
         opacity: 0; 
-        transform: translateX(50px); 
+        transform: translateX(40px); 
     } to {
         opacity: 1; 
         transform: translateX(0px); 
