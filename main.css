@@ -167,6 +167,7 @@ a:hover {
 .landing-content {
     align-items: flex-start;
     justify-content: center;
+    
 }
 
 .landing h1{
@@ -196,6 +197,7 @@ a:hover {
 #section-about{
     padding-top:5em
 }
+
 .about-photo img{
     height: 15em;
     width: 15em;
@@ -204,7 +206,6 @@ a:hover {
 }
 
 /* Projects */
-
 
 /* Reel */
 /* Journal */
