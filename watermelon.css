@@ -92,8 +92,6 @@ ul.wm-icon li {
   box-shadow: 0 14px 28px rgba(27, 33, 48,0.18), 0 10px 10px rgba(27, 33, 48,0.16) !important;
 }
 
-
-
 .wm-round {
   border-radius: 2em !important;
 }
@@ -133,11 +131,11 @@ a.wm-a {
 }
 
 .wm-section {
-  padding: 0 20vw 70px 20vw;
+  padding: 0 25vw 70px 25vw;
 }
 
 .wm-long-section {
-  padding: 0 20vw 5px 20vw;
+  padding: 0 25vw 70px 25vw;
 }
 
 /* Centre Div Horizontal */
