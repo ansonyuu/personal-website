@@ -13,8 +13,7 @@
         
         <!-- Fonts -->
         <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    
+  
     
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -85,7 +84,7 @@
         <!-- About -->
         <section class="wm-section wm-flex-row" id="section-about">
             <div class="wm-flex-33 about-photo">
-                <img src="img/me.jpeg" alt="A photo of Anson Yu">
+                <img data-lazy="img/me.jpeg" alt="A photo of Anson Yu">
             </div>
             <div class="wm-flex-66">
                 <h3 class="wm-section-title">About Me</h3>
@@ -111,129 +110,138 @@
         <section class="wm-section" id="section-projects">
             <h3 class="wm-section-title">What I've been up to...</h3>
             <div class="wm-flex-row wm-flex-33" id="">
-                <div class="wm-card wm-hover wm-flex-column" id="project-reflect">
-                    <img class="reframe" src="img/project-reflect.png" alt="A photo of reflect">
-                    <h4>Designing for reflect.</h4>
-                    <ul class="wm-hl">
-                        <li>Programming</li>
-                        <li>UI/UX</li>
-                    </ul>
-                    <p>reflect is a digitally mindful chrome and firefox extension that encourages
-                        users to reflect on their relationship with technology.
-                    </p>
-                </div>
-                <div class="wm-card wm-hover wm-flex-column" id="project-covid">
-                    <img class="reframe" src="img/project-covid.jpg" alt="A photo of Project 1">
-                    <h4>Leading the SDC COVID Relief Fund</h4>
-                    <ul class="wm-hl">
-                        <li>Community</li>
-                        <li>Project Management</li>
-                    </ul>
-                    <p>The SDC COVID-19 Relief Fund was a joint effort between 10 
-                        organizations to provide PPE to senior homes. In the end, 
-                        we were able to provide a total of 22,000 masks to 32 homes.
-                    </p>
-                </div>
-                <div class="wm-card wm-hover wm-flex-column" id="project-bee">
-                    <img class="reframe" src="img/project-bees.png" alt="A photo of Beekeeping">
-                    <h4>Starting a Beekeeping Club</h4>
-                    <ul class="wm-hl">
-                        <li>Community</li>
-                        <li>Environmental</li>
-                    </ul>
-                    <p>Working with neighbouring community partners and universities to start the 
-                        first beehive at my school.
-                    </p>
-                </div>
+                <a href="https://getreflect.app/" class="card-link" target="_blank" > 
+                    <div class="wm-card wm-hover wm-flex-column" id="project-reflect">
+                        <img class="reframe" data-lazy="img/project-reflect.png" alt="A photo of reflect">
+                        <h4>Designing for reflect.</h4>
+                        <ul class="wm-hl">
+                            <li>Programming</li>
+                            <li>UI/UX</li>
+                        </ul>
+                        <p>reflect is a digitally mindful chrome and firefox extension that encourages
+                            users to reflect on their relationship with technology.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://socialdiversity.org/" class="card-link" target="_blank" > 
+                    <div class="wm-card wm-hover wm-flex-column" id="project-covid">
+                        <img class="reframe" src="img/project-covid.jpg" alt="A photo of Project 1">
+                        <h4>Leading the SDC COVID Relief Fund</h4>
+                        <ul class="wm-hl">
+                            <li>Community</li>
+                            <li>Project Management</li>
+                        </ul>
+                        <p>The SDC COVID-19 Relief Fund was a joint effort between 10 
+                            organizations to provide PPE to senior homes. In the end, 
+                            we were able to provide a total of 22,000 masks to 32 homes.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- fill in -->
+
+                <a href="" class="card-link" target="_blank" > 
+                    <div class="wm-card wm-hover wm-flex-column" id="project-bee">
+                        <img class="reframe" data-lazy="img/project-bees.png" alt="A photo of Beekeeping">
+                        <h4>Starting a Beekeeping Club</h4>
+                        <ul class="wm-hl">
+                            <li>Community</li>
+                            <li>Environmental</li>
+                        </ul>
+                        <p>Working with neighbouring community partners and universities to start the 
+                            first beehive at my school.
+                        </p>
+                    </div>
+                </a>
             </div>
 
             <div class="wm-flex-row .wm-section" id="">
-                <div class="wm-card wm-hover wm-flex-column" id="project-debate">
-                    <img class="reframe" src="img/project-debate.jpg" alt="A photo of a DSDC student">
-                    <h4>Teaching debate at DSDC</h4>
-                    <ul class="wm-hl">
-                        <li>Debate</li>
-                        <li>Community</li>
-                    </ul>
-                    <p>Debate and Speech Development Community is an academy for young scholars with
-                        a focus on discussing important global issues and developing skills.       
-                    </p>
-                </div>
-                <div class="wm-card wm-hover wm-flex-column" id="project-website">
-                    <img class="reframe" src="img/project-website.png" alt="A photo of a leaf animation from this website">
-                    <h4>Making this website</h4>
-                    <ul class="wm-hl">
-                        <li>Learning</li>
-                        <li>UI/UX</li>
-                    </ul>
-                    <p>First time doing web development! This website and its subpages are made entirely 
-                        from scratch, using HTML, CSS, and a little vanilla JS.
-                    </p>
-                </div>
-                <div class="wm-card wm-hover wm-flex-column" id="project-sequioa">
-                    <img class="reframe" src="img/project-sequioa.png" alt="A photo of the SDC Mascot">
-                    <h4>Developing a Slack bot</h4>
-                    <ul class="wm-hl">
-                        <li>Community</li>
-                        <li>Programming</li>
-                    </ul>
-                    <p>First node.js application. Sequoia is a Slack bot that onboards SDC volunteers,
-                        calculates points, and runs registration for community events to empower children
-                        with disabilities.
-                    </p>
-                </div>
+                <a href="https://dsdc.ca/" class="card-link" target="_blank" > 
+                    <div class="wm-card wm-hover wm-flex-column" id="project-debate">
+                        <img class="reframe" data-lazy="img/project-debate.jpg" alt="A photo of a DSDC student">
+                        <h4>Teaching debate at DSDC</h4>
+                        <ul class="wm-hl">
+                            <li>Debate</li>
+                            <li>Community</li>
+                        </ul>
+                        <p>Debate and Speech Development Community is an academy for young scholars with
+                            a focus on discussing important global issues and developing skills.       
+                        </p>
+                    </div>
+                </a>
+                <a href="https://ansonyu.ca/" class="card-link" target="_blank" > 
+                    <div class="wm-card wm-hover wm-flex-column" id="project-website">
+                        <img class="reframe" data-lazy="img/project-website.png" alt="A photo of a leaf animation from this website">
+                        <h4>Making this website</h4>
+                        <ul class="wm-hl">
+                            <li>Learning</li>
+                            <li>UI/UX</li>
+                        </ul>
+                        <p>First time doing web development! This website and its subpages are made entirely 
+                            from scratch, using HTML, CSS, and a little vanilla JS.
+                        </p>
+                    </div>
+                </a>
+                <a href="https://www.socialdiversity.org/" class="card-link" target="_blank" > 
+                    <div class="wm-card wm-hover wm-flex-column" id="project-sequioa">
+                        <img class="reframe" data-lazy="img/project-sequioa.png" alt="A photo of the SDC Mascot">
+                        <h4>Developing a Slack bot</h4>
+                        <ul class="wm-hl">
+                            <li>Community</li>
+                            <li>Programming</li>
+                        </ul>
+                        <p>First node.js application. Sequoia is a Slack bot that onboards SDC volunteers,
+                            calculates points, and runs registration for community events to empower children
+                            with disabilities.
+                        </p>
+                    </div>
+                </a>
             </div>
+        
         </section>
 
         <!-- Video -->
         <section class="wm-section" id="section-video">
             <h3 class=".wm-section-title">Cinema Reel</h3>
                 <div class="wm-flex-column" id="video-cinematogrpahy">
-                    <iframe width=100% height=450 src="https://www.youtube.com/embed/pwU85yTJfYY?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width=100% height=450 data-lazy="https://www.youtube.com/embed/pwU85yTJfYY?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
 
         <!-- Journal -->
         <section class="wm-section" id="section-journal">
             <h3 class="wm-section-title">Writing</h3>
-            <div class="wm-flex-row wm-flex-50" id="">
-                <div class="wm-card wm-hover wm-flex-column" id="journal-grad">
-                    <a href="https://www.allenhoustonmagazine.com/specialedition2/specialedition2.html#p=24">
-                        <img class="reframe" src="img/journal-grad.jpg" alt="A photo of an Allen and Houston Magazine cover"></a>
+            <div class="wm-flex-row wm-flex-33" id="">
+
+                <a href="https://www.allenhoustonmagazine.com/specialedition2/specialedition2.html#p=24" class="card-link" target="_blank" ></a>
+                    <div class="wm-card wm-hover wm-flex-column" id="journal-grad">
+                        <img class="reframe" data-lazy="img/journal-grad.jpg" alt="A photo of an Allen and Houston Magazine cover">
                         <h4>Con(grad)ulations</h4>
                         <p><strong>June 19th, 2020</strong><br>Featured in Allen and Houston Magazine. 
-                            Some self-important sentiments from the grad we'll never forget </p>
-                     </a>
-                </div>
-
-                
-                <div class="wm-card wm-hover wm-flex-column" id="journal-masks">
-                    <a href="http://sh1.sendinblue.com/v3tdxplbpt7e.html?t=1589256729">
-                        <img class="reframe" src="img/project-reflect.png" alt="A watercolor style graphic of a nurse waving"></a>
-                        <h4>AI Powered Productivity?</h4>
-                        <p><strong>June 11th, 2020</strong>
-                            <br>Featured in AI for Anyone. A newsletter for 30k students around the world. A pretty cool moment for our team :)</p>
-                </div> 
-            </div>
-
-            <div class="wm-flex-row wm-flex-50" id="">
-                
-                <div class="wm-card wm-hover wm-flex-column" id="journal-masks">
-                    <a href="https://www.humanityunmasked.org/stories/ansons-story">
-                        <img class="reframe" src="img/journal-masks.png" alt="A watercolor style graphic of a nurse waving"></a>
-                        <h4>Window to the Soul</h4>
-                        <p><strong>June 5th, 2020</strong>
-                            <br>Featured in Humanity Unmasked. A Humans of New York-esque pastiche 
-                        from a endearing moment</p>
-                </div> 
+                                Some self-important sentiments from the grad we'll never forget </p>
+                    </div>
+                </a>
+   
+                <a href="http://sh1.sendinblue.com/v3tdxplbpt7e.html?t=1589256729" class="card-link" target="_blank" >
+                    <div class="wm-card wm-hover wm-flex-column" id="journal-masks">
+                            <a href="http://sh1.sendinblue.com/v3tdxplbpt7e.html?t=1589256729">
+                                <img class="reframe" data-lazy="img/project-reflect.png" alt="A watercolor style graphic of a nurse waving"></a>
+                                <h4>AI Powered Productivity?</h4>
+                                <p><strong>June 11th, 2020</strong>
+                                    <br>Featured in AI for Anyone. A newsletter for 30k students around the world. A pretty cool moment for our team :)</p>
+                    </div>
+                </a>
+            
+                <a href="https://www.humanityunmasked.org/stories/ansons-story" class="card-link" target="_blank" >
+                    <div class="wm-card wm-hover wm-flex-column" id="journal-masks">
+                            <img class="reframe" data-lazy="img/journal-masks.png" alt="A watercolor style graphic of a nurse waving">
+                            <h4>Window to the Soul</h4>
+                            <p><strong>June 5th, 2020</strong>
+                                <br>Featured in Humanity Unmasked. A Humans of New York-esque pastiche 
+                                from a endearing moment</p>
+                    </div> 
+                </a>
                                   
-                <div class="wm-card wm-hover wm-flex-column" id="journal-letter">
-                    <a href="assets/Time Capsule.pdf">  
-                        <img class="reframe" src="img/journal-letter.jpg" alt="A photo of Anson Yu outside"></a>
-                        <h4>A Letter to Me: A Time Capsule</h4>
-                        <p><strong>April 2nd, 2020</strong><br>A deeply personal letter from 
-                            someone l I don't know anymore</p>
-                </div>
             </div>
         </section>
     </body>

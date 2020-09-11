@@ -7,8 +7,8 @@
 } 
 
 @font-face { 
-    font-family: Acumin; 
-    src: url('assets/acumin.otf'); 
+    font-family: Inter; 
+    src: url('assets/inter.woff'); 
 } 
 
 html, body {
@@ -20,7 +20,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'Acumin', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul{
@@ -55,7 +55,7 @@ p {
     padding: 1rem;
 }
 
-/* Navigation*/
+/* General - Navigation*/
 
 .nav {
     display: flex;
@@ -97,7 +97,7 @@ a:hover {
     
 }
 
-/* Landing */
+/* Home - Landing */
 
 .landing {
     height: 85vh;
@@ -192,7 +192,7 @@ a:hover {
     color: var(--wm-colours-dark);
 }
 
-/* About */
+/* Home - About */
 
 #section-about{
     padding-top:5em
@@ -205,11 +205,44 @@ a:hover {
     padding: 1em;
 }
 
-/* Projects */
+/* Home - Projects */
 
-/* Reel */
-/* Journal */
-/* Footer */
+.card-link:hover{
+    text-decoration: none;
+}
+
+/* Home - Reel */
+
+/* Home - Journal */
+
+/* Gallery - Photo Grid*/
+
+#section-gallery{
+    padding: 0 15vw 10px 15vw;
+}
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+.gallery-column {
+    flex: 0 0 31%;
+    max-width: 31%;
+    padding: 0 4px;
+  }
+  
+.gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+#gallery-shots{
+    display:block
+}
+
+/* General - Footer */
 
 footer {
     background-color: var(--wm-colours-dark);
@@ -240,7 +273,7 @@ footer {
 .fab-light {
     color: var(--wm-colours-light)
 }
-/* Construction */
+/* General - Construction */
 
 .construction{
     height: 85vh;
@@ -258,23 +291,38 @@ footer {
 }
 
 
-/* Media */
+/* General - Media Queries*/
 
 @media screen and (max-width:1024px){
     .wm-section {
         padding: 0 12vw 70px 12vw;
       }
+    
+    .gallery-column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .nav {
+        z-index: 4
+        
+    }
 }
 
 @media screen and (max-width:768px){
+
+    /* General - Styling */
     body{
         overflow-x: hidden;
     }
 
+    /* General - Navigation */
     .nav {
+        z-index: 4;
         position: relative;
         justify-content: flex-end;
         background-color: var(--wm-colours-dark);
+        
     }
 
     .nav-list{
@@ -301,7 +349,8 @@ footer {
     }
 
     .nav-item {
-        color: var(--wm-colours-light)
+        color: var(--wm-colours-light);
+    
     }
 
     .nav-link {
@@ -343,6 +392,10 @@ footer {
         flex-direction: column;
       }
 
+    .gallery-column {
+        flex: 100%;
+        max-width: 100%;
+    }
     
 }
 
@@ -351,7 +404,7 @@ footer {
 }
 
 
-/* Keyframes */
+/* General - Keyframes */
 
 @keyframes navLinkFade{
     from{

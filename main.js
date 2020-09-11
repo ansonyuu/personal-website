@@ -44,3 +44,52 @@ navSlide();
 // 	}).start()
 		
 // })
+
+//Tab functionality for gallery
+function openTab(evt, tabName) {
+    // Declare all variables
+    let i, tabcontent, tablinks;
+  
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("wm-tabcontent");
+
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("wm-tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+  
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  //Lazy load gallery photos
+  const targets = document.querySelectorAll('img');
+
+const lazyLoad = target => {
+  const io = new IntersectionObserver((entries, observer) => {
+    console.log(entries)
+    entries.forEach(entry => {
+      console.log('Loading working');
+
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        const src = img.getAttribute('data-lazy');
+
+        img.setAttribute('src', src);
+        img.classList.add('fade');
+
+        observer.disconnect();
+      }
+    });
+  });
+
+  io.observe(target)
+};
+
+targets.forEach(lazyLoad);

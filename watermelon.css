@@ -9,6 +9,9 @@
 
 /* Card Styling */
 .wm-card {
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
   cursor: pointer;
   padding: 0.75rem 0.75rem;
   margin: 0.75rem 0.75rem;
@@ -116,6 +119,40 @@ a.wm-a {
   font-size: 1rem;
   color: var(--wm-colours-dark);
   padding: 0 0.2rem 0 0.2rem;
+}
+
+/* Tabs Styling */
+
+.wm-tab {
+  overflow: hidden;
+  margin:0.2rem
+}
+
+.wm-tab button {
+  background-color: inherit;
+  float: left;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.wm-tab button:hover {
+  background-color: var(--wm-colours-lightgray);
+}
+
+/* Create an active/current tablink class */
+.wm-tab button.active {
+  background-color: var(--wm-colours-gray);
+}
+
+/* Style the tab content */
+.wm-tabcontent {
+  display: none;
+  padding: 0.02rem;
+  border-top: none;
 }
 
 /* Layout Styling */

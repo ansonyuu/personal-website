@@ -14,6 +14,7 @@
         <!-- Fonts -->
         <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -53,9 +54,192 @@
         </header>
 
         <!-- Landing Page -->
-        <section class="construction wm-section">
-            <div class="construction-content wm-flex-column wm-flex-33">
-                <h2 class="subtitle subtitle-landing">This site is currently under construction. <br>Come back soon!</h2>
+        <section class="wm-section-title" id="section-gallery" >
+            <h1>Photos</h1>
+        </section>
+
+        <!-- Tab links -->
+        <section class="wm-section" id="section-gallery" >
+            <div class="wm-tab">
+                <button class="wm-tablinks" id="defaultOpen" onclick="openTab(event, 'gallery-shots')">Shots</button>
+                <button class="wm-tablinks" onclick="openTab(event, 'gallery-friends')">Friends</button>
+                <button class="wm-tablinks" onclick="openTab(event, 'gallery-me')">Me</button>
+                <button class="wm-tablinks" onclick="openTab(event, 'gallery-calls')">Calls</button>
+                <button class="wm-tablinks" onclick="openTab(event, 'gallery-edits')">Edits</button>
+            </div>
+        </section>
+        
+        <!-- Tab content -->
+        <section class="wm-section" id="section-gallery">
+            <div id="gallery-shots" class="wm-tabcontent">
+                <p>Some of my favorite shots from around the world. Most photos taken on a Canon Rebel T6i and a 50mm 1.f Prime lens</p>
+                <div class="gallery-row"> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\shots-1.jpg">
+                        <img data-lazy="img\photos\shots-4.jpg" >
+                        <img data-lazy="img\photos\shots-7jpg">
+                        <img data-lazy="img\photos\shots-10.jpg" >
+                        <img data-lazy="img\photos\shots-13.jpg">
+                        <img data-lazy="img\photos\shots-16.jpg">
+                        <img data-lazy="img\photos\shots-19.jpg">
+                        <img data-lazy="img\photos\shots-22.jpg" >
+                        <img data-lazy="img\photos\shots-25.jpg" >
+                        <img data-lazy="img\photos\shots-28.jpg" >
+                        <img data-lazy="img\photos\shots-31.jpg" >
+                        <img data-lazy="img\photos\shots-34.jpg" >
+                        <img data-lazy="img\photos\shots-37.jpg" >
+                    </div>
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\shots-2.jpg" >
+                        <img data-lazy="img\photos\shots-5.jpg" >
+                        <img data-lazy="img\photos\shots-8.jpg" >
+                        <img data-lazy="img\photos\shots-11.jpg" >
+                        <img data-lazy="img\photos\shots-14.jpg" >
+                        <img data-lazy="img\photos\shots-17.jpg" >
+                        <img data-lazy="img\photos\shots-20.jpg" >
+                        <img data-lazy="img\photos\shots-23.jpg" >
+                        <img data-lazy="img\photos\shots-26.jpg" >
+                        <img data-lazy="img\photos\shots-29.jpg" >
+                        <img data-lazy="img\photos\shots-32.jpg" >
+                        <img data-lazy="img\photos\shots-35.jpg" >
+                    </div> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\shots-3.jpg" >
+                        <img data-lazy="img\photos\shots-6.jpg" >
+                        <img data-lazy="img\photos\shots-9.jpg" >
+                        <img data-lazy="img\photos\shots-12.jpg" >
+                        <img data-lazy="img\photos\shots-15.jpg" >
+                        <img data-lazy="img\photos\shots-18.jpg" >
+                        <img data-lazy="img\photos\shots-21.jpg" >
+                        <img data-lazy="img\photos\shots-24.jpg" >
+                        <img data-lazy="img\photos\shots-27.jpg" >
+                        <img data-lazy="img\photos\shots-30.jpg" >
+                        <img data-lazy="img\photos\shots-33.jpg" >
+                        <img data-lazy="img\photos\shots-36.jpg" >
+                    </div>
+                </div>
+            </div>
+        
+            <div id="gallery-friends" class="wm-tabcontent">
+                <p>Friends</p>
+                <div class="gallery-row"> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\friends-1.jpg">
+                        <img data-lazy="img\photos\friends-2.jpg" >
+                        <img data-lazy="img\photos\friends-3.jpg">
+                        <img data-lazy="img\photos\friends-4.jpg" >
+                        <img data-lazy="img\photos\friends-5.jpg">
+                        <img data-lazy="img\photos\friends-6.jpg">
+                        <img data-lazy="img\photos\friends-7.jpg">
+                    </div>
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\friends-8.jpg" >
+                        <img data-lazy="img\photos\friends-9.jpg" >
+                        <img data-lazy="img\photos\friends-10.jpg" >
+                        <img data-lazy="img\photos\friends-11.jpg" >
+                        <img data-lazy="img\photos\friends-12.jpg" >
+                        <img data-lazy="img\photos\friends-13.jpg" >
+                    </div> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\friends-14.jpg" >
+                        <img data-lazy="img\photos\friends-16.jpg" >
+                        <img data-lazy="img\photos\friends-17.jpg" >
+                        <img data-lazy="img\photos\friends-18.jpg" >
+                        <img data-lazy="img\photos\friends-19.jpg" >
+                        <img data-lazy="img\photos\friends-20.jpg" >
+                    </div> 
+                    </div>
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\friends-21.jpg" >
+                        <img data-lazy="img\photos\friends-22.jpg" >
+                        <img data-lazy="img\photos\friends-23.jpg" >
+                        <img data-lazy="img\photos\friends-24.jpg" >
+                        <img data-lazy="img\photos\friends-25.jpg" >
+                        <img data-lazy="img\photos\friends-26.jpg" >
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div id="gallery-me" class="wm-tabcontent">
+                <p>Me</p>
+                <div class="gallery-row"> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\me-1.jpg">
+                        <img data-lazy="img\photos\me-2.jpg" >
+                        <img data-lazy="img\photos\me-3.jpg">
+                        <img data-lazy="img\photos\me-4.jpg" >
+                        <img data-lazy="img\photos\me-5.jpg">
+                        <img data-lazy="img\photos\me-6.jpg">
+                        <img data-lazy="img\photos\me-7.jpg">
+                    </div>
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\me-8.jpg" >
+                        <img data-lazy="img\photos\me-9.jpg" >
+                        <img data-lazy="img\photos\me-10.jpg" >
+                        <img data-lazy="img\photos\me-11.jpg" >
+                        <img data-lazy="img\photos\me-12.jpg" >
+                        <img data-lazy="img\photos\me-13.jpg" >
+                    </div> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\me-14.jpg" >
+                        <img data-lazy="img\photos\me-16.jpg" >
+                        <img data-lazy="img\photos\me-17.jpg" >
+                        <img data-lazy="img\photos\me-18.jpg" >
+                        <img data-lazy="img\photos\me-19.jpg" >
+                        <img data-lazy="img\photos\me-10.jpg" >
+                    </div>   
+                </div>
+            </div>
+
+            <div id="gallery-calls" class="wm-tabcontent">
+                <p>Calls</p>
+                <div class="gallery-row"> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\calls-1.jpg">
+                        <img data-lazy="img\photos\calls-2.jpg" >
+                        <img data-lazy="img\photos\calls-3.jpg">
+                        <img data-lazy="img\photos\calls-4.jpg" >
+                        <img data-lazy="img\photos\calls-5.jpg">
+                    </div>
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\calls-6.jpg" >
+                        <img data-lazy="img\photos\calls-7.jpg" >
+                        <img data-lazy="img\photos\calls-8.jpg" >
+                        <img data-lazy="img\photos\calls-9.jpg" >
+                    </div> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\calls-10.jpg" >
+                        <img data-lazy="img\photos\calls-11.jpg" >
+                        <img data-lazy="img\photos\calls-12.jpg" >
+                        <img data-lazy="img\photos\calls-13.jpg" >
+                    </div> 
+                    </div>
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\calls-14.jpg" >
+                        <img data-lazy="img\photos\calls-15.jpg" >
+                        <img data-lazy="img\photos\calls-16.jpg" >
+                        <img data-lazy="img\photos\calls-17.jpg" >
+                    </div>  
+                </div>
+            </div>
+
+            <div id="gallery-edits" class="wm-tabcontent">
+                <p>Edits</p>
+                <div class="gallery-row"> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\edits-1.jpg">
+                        <img data-lazy="img\photos\edits-4.jpg" >
+                    </div>
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\edits-2.jpg" >
+                    </div> 
+                    <div class="gallery-column">
+                        <img data-lazy="img\photos\edits-3.jpg">
+                    </div> 
+                    </div>
+                </div>
             </div>
         </section>
     </body>
@@ -63,19 +247,21 @@
 
     <footer>
         <div class="wm-section">
-            <div class="footer-content">
+            <div class="footer-content wm-flex-column">
             <h2>I'd love to meet you</h2><br>   
-            <div class="wm-flex-row footer-icons">
+            <div class="footer-icons">
                 <ul class="wm-icon" id="icons-light">
-                    <li><a href="https://www.linkedin.com/in/anson-y/"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCwWZhJbtgGC6XBQMfSxwdrA"><i class="fab fa-youtube-square"></i></a></li>
-                    <li><a href="https://www.facebook.com/howaboutyu"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="https://www.instagram.com/anson.yu/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/anson-y/"><i class="fab fab-light fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCwWZhJbtgGC6XBQMfSxwdrA"><i class="fab fab-light fa-youtube-square"></i></a></li>
+                    <li><a href="https://www.facebook.com/howaboutyu"><i class="fab fab-light fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/anson.yu/"><i class="fab fab-light fa-instagram"></i></a></li>
                 </ul>
             </div>
-            <p>Made by Anson Yu &copy; 2020 </p>
+            <p>Made from scratch by Anson Yu &copy; 2020 </p>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="main.js">  
+        document.getElementById("defaultOpen").click();
+    </script>
 
 </html>
