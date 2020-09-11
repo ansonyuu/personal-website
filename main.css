@@ -125,6 +125,7 @@ a:hover {
 }
 
 #landing-1-right {
+    pointer-events: none;
     z-index: 2;
     right:0;
     max-height:105vh;
@@ -132,6 +133,7 @@ a:hover {
     
 }
 #landing-1-left {
+    pointer-events: none;
     z-index: 2; 
     left:0; 
     max-height:105vh;
@@ -354,6 +356,7 @@ footer {
 
     .nav-item {
         color: var(--wm-colours-light);
+        z-index: 4;
     
     }
 
