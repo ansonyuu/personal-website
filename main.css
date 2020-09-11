@@ -226,13 +226,14 @@ a:hover {
 }
 .gallery-row {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
 .gallery-column {
-    flex: 0 0 31%;
-    max-width: 31%;
+    flex: 0 0 32%;
+    max-width: 32%;
     padding: 0 4px;
   }
   
@@ -245,6 +246,7 @@ a:hover {
 #gallery-shots{
     display:block
 }
+
 
 /* General - Footer */
 

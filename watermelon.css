@@ -138,10 +138,11 @@ a.wm-a {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  background-color: var(--wm-colours-lightgray)
 }
 
 .wm-tab button:hover {
-  background-color: var(--wm-colours-lightgray);
+  background-color: var(--wm-colours-gray);
 }
 
 /* Create an active/current tablink class */
@@ -149,12 +150,27 @@ a.wm-a {
   background-color: var(--wm-colours-gray);
 }
 
+.wm-tab button.inactive {
+  background-color: var(--wm-colours-white);
+}
+
+
+
 /* Style the tab content */
 .wm-tabcontent {
   display: none;
   padding: 0.02rem;
-  border-top: none;
+  border: 2px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: var(--wm-colours-lightgray) ;
+
+
 }
+
+.wm-tabcontent p{
+  padding: 0.75rem;
+}
+
 
 /* Layout Styling */
 
