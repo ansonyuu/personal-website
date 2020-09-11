@@ -69,7 +69,7 @@ function openTab(evt, tabName) {
   }
 
   //Lazy load gallery photos
-  const targets = document.querySelectorAll('img');
+  const targets = document.querySelectorAll("img[data-lazy]");
 
 const lazyLoad = target => {
   const io = new IntersectionObserver((entries, observer) => {
