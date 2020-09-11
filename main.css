@@ -316,6 +316,10 @@ footer {
         overflow-x: hidden;
     }
 
+    p{
+        color: black;
+    }
+
     /* General - Navigation */
     .nav {
         z-index: 4;

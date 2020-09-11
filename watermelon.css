@@ -10,8 +10,9 @@
 /* Card Styling */
 .wm-card {
   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+  height: 90%;
+  flex-wrap: wrap;
+ justify-content: space-between;
   cursor: pointer;
   padding: 0.75rem 0.75rem;
   margin: 0.75rem 0.75rem;
