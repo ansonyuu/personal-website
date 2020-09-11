@@ -1,3 +1,4 @@
+
 // Making the nav bar go away and come back on mobile
 const navSlide = () => {
     const burger = document.querySelector('.burger');
@@ -93,3 +94,4 @@ const lazyLoad = target => {
 };
 
 targets.forEach(lazyLoad);
+
