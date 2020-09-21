@@ -47,9 +47,14 @@ p {
     font-size: 1rem;
   }
 
+.profile {
+    border-radius:20px
+}
+
 .reframe {
     height: 9rem;
     width: 9rem;
+    border-radius: 100px;
     object-fit: cover;
     border-radius: 0.05rem;
     padding: 1rem;
