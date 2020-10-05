@@ -36,12 +36,11 @@
             <div class="nav-bar">
                 <nav class="nav">
                     <ul class="nav-list wm-flex-row">
-                            <li class="nav-item"><a href="index.html" name="Link to Home Page" class="nav-link">Home</a></li>
-                            <!-- <li class="nav-item"><a href="about.html" name="Link to About Page" class="nav-link">About</a></li> -->
-                            <li class="nav-item"><a href="projects.html" name="Link to Projects Page" class="nav-link">Projects</a></li>
-                            <li class="nav-item"><a href="journal.html" name="Link to Journal Page" class="nav-link">Journal</a></li>
-                            <li class="nav-item"><a href="gallery.html" name="Link to Photos Page" class="nav-link">Photos</a></li>                            
-                            <li class="nav-item"><a rel="noopener" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" name="Link to Jokes Page" class="nav-link" target="_blank">Jokes</a></li>
+                            <li class="nav-item wm-link"><a href="index.html" name="Link to Home Page" class="nav-link">Home</a></li>
+                            <li class="nav-item wm-link"><a href="projects.html" name="Link to Projects Page" class="nav-link">Projects</a></li>
+                            <!-- <li class="nav-item wm-link"><a href="journal.html" name="Link to Journal Page" class="nav-link">Journal</a></li> -->
+                            <li class="nav-item wm-link"><a href="gallery.html" name="Link to Photos Page" class="nav-link">Photos</a></li>                            
+                            <li class="nav-item wm-link"><a rel="noopener" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" name="Link to Jokes Page" class="nav-link" target="_blank">Jokes</a></li>
                     </ul>
                     <div class="burger">
                         <div class="line-1" id="line-1"></div>
@@ -67,7 +66,7 @@
 
         <div class="landing-content wm-flex-column wm-flex-33">
             <h1 class="title title-landing">Hi I'm Anson!</h1>
-                <h2 class="subtitle subtitle-landing">Welcome to my humble abode</h2>
+                <h2 class="subtitle subtitle-landing">Welcome to my humble abode. Scroll to see my work :)</h2>
             <div class="intro-icons">
                 <ul class="wm-icon">
                     <li><a name="Link to LinkedIn" rel="noopener"href="https://www.linkedin.com/in/anson-y/"> <i class="fab fab-dark fa-linkedin"></i></a></li>                        
@@ -85,14 +84,18 @@
                 <img class="profile" data-lazy="img/me.jpeg" alt="A photo of Anson Yu">
             </div>
             <div class="wm-flex-66">
-                <h3 class="wm-section-title">About Me</h3>
-                <p class="section-text"><strong>I’m a student interested accessible design and 
-                agricultural tech.</strong><br><br>Currently studying Systems Design Engineering at 
+                <h3 class="wm-section-title">About Me</h3><br></br>
+                <p class="section-text"><strong>I’m a student, activist, and quite possibly one of the biggest extroverts you know.
+                    
+                </strong><br></br>Currently studying Systems Design Engineering at 
                 Waterloo with a focus on economics and society. When I’m not knee deep 
                 in non-fiction, you can find me making short films or beekeeping! I can also be
                 found participating in film festivals, feverishly spreadsheeting for event 
                 planning purposes, or learning a new programming language off of YouTube.
-                Feel free to snoop around or reach out via ansonyu24@gmail.com.</p><br>
+
+
+                <br></br>Feel free to reach out about accessible design,
+                agricultural tech, or anything at all via ansonyu24@gmail.com :)</p><br>
                 <div class="about-buttons wm-flex-row">
                     <form action="https://www.notion.so/ansonyu/06ab447ff03645ef940a160f3e2e804e?v=1d0230d93c4c41b995dd77d3964bf9c0" method="get" target="_blank">
                         <button class="wm-button" id="reading-list">Book List</button>
@@ -108,96 +111,149 @@
         <section class="wm-section" id="section-projects">
             <h3 class="wm-section-title">What I've been up to...</h3>
 
-            <div class="wm-flex-row wm-flex-33" id="">
-                <a name="Link to reflect Website" rel="noopener" href="https://getreflect.app/" class="card-link" target="_blank" >  
-                    <div class="wm-card wm-hover wm-flex-column" id="project-reflect">
-                        <img class="reframe" data-lazy="img/project-reflect.png" alt="A photo of reflect">
-                        <h4>Designing for reflect.</h4>
-                        <ul class="wm-hl">
-                            <li>Programming</li>
-                            <li>UI/UX</li>
-                        </ul>
-                        <p>reflect is a digitally mindful chrome and firefox extension that encourages
-                            users to reflect on their relationship with technology.
-                        </p>
+                <a name="Link to Medium article" rel="noopener" href="https://medium.com/getreflect/pixel-to-play-store-designing-reflect-cad98a08099a" class="card-link" target="_blank" >  
+                    
+                    <div class="wm-long-card wm-hover wm-flex-row " id="project-reflect">
+                        <img class="reframe" data-lazy="img/project-reflect.webp" alt="A photo of reflect">
+                        <div class="wm-flex-column project-content">
+                            <h4>Designing a tool for digital health</h4>
+                            <ul class="wm-hl">
+                                <li>User Research</li>
+                                <li>Prototyping</li>
+                                <li>Product Thinking</li>
+                            </ul>
+                            <p>reflect is a digitally mindful chrome and firefox extension that encourages
+                                users to reflect on their relationship with technology.
+                            </p>
+                        </div>
                     </div>
                 </a>
-                <a name="Link to SDC Website" rel="noopener" href="https://socialdiversity.org/" class="card-link" target="_blank" >  
-                    <div class="wm-card wm-hover wm-flex-column" id="project-covid">
-                        <img class="reframe" data-lazy="img/project-covid.jpg" alt="A photo of Project 1">
-                        <h4>Leading the SDC COVID Relief Fund</h4>
-                        <ul class="wm-hl">
-                            <li>Community</li>
-                            <li>Project Management</li>
-                        </ul>
-                        <p>The SDC COVID-19 Relief Fund was a joint effort between 10 
-                            organizations to provide PPE to senior homes. In the end, 
-                            we were able to provide a total of 22,000 masks to 32 homes.
-                        </p>
+                <a name="Link to Everest" rel="noopener" href="https://devpost.com/software/everest-zn12sw" class="card-link" target="_blank" >  
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-everest">
+                        <img class="reframe" data-lazy="img/project-everest.webp" alt="A photo of Project 1">
+                        <div class="wm-flex-column project-content">
+                            <h4>Prototyping a gamified app for encouraging physical activity</h4>
+                            <ul class="wm-hl">
+                                <li>Prototyping</li>
+                                <li>Product Thinking</li>
+                                <li>Branding</li>
+                            </ul>
+                            <p>Offset your scroll with a stroll! Everest is an app designed for kids that measures the distance scrolled on a given device and prompts users to walk to offset it.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a name="Link to Policython" rel="noopener" href="https://ansonyu.ca/policython.html" class="card-link" target="_blank" >  
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-policython">
+                        <img class="reframe" data-lazy="img/project-policython.webp" alt="A photo of Policython website">
+                        <div class="wm-flex-column project-content">
+                            <h4>Leading the design team to brand the first Policython</h4>
+                            <ul class="wm-hl">
+                                <li>Visual Design</li>
+                                <li>Branding</li>
+                            </ul>
+                            <p>Policy for the People is an international, Harvard-student led organization supporting students to draft policy proposals to today's most pressing issues. 
+                            </p>
+                        </div>
                     </div>
                 </a>
 
                 <!-- fill in -->
 
                 <a name="No link" href="" rel="noopener" class="card-link" target="_blank" > 
-                    <div class="wm-card wm-hover wm-flex-column" id="project-bee">
-                        <img class="reframe" data-lazy="img/project-bees.png" alt="A photo of Beekeeping">
-                        <h4>Starting a Beekeeping Club</h4>
-                        <ul class="wm-hl">
-                            <li>Community</li>
-                            <li>Environmental</li>
-                        </ul>
-                        <p>Working with neighbouring community partners and universities to start the 
-                            first beehive at my school.
-                        </p>
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-bee">
+                        <img class="reframe" data-lazy="img/project-bees.webp" alt="A photo of Beekeeping">
+                        <div class="wm-flex-column project-content">
+                            <h4>Starting a Beekeeping Club</h4>
+                            <ul class="wm-hl">
+                                <li>Community</li>
+                                <li>Environmental</li>
+                            </ul>
+                            <p>Working with neighbouring community partners and universities to start the 
+                                first beehive at my school. Currently, we are at 4 full hives.
+                            </p>
+                        </div>
                     </div>
                 </a>
-            </div>
-
-            <div class="wm-flex-row .wm-section" id="">
+                <a name="Link to SDC Website" rel="noopener" href="https://www.humanityunmasked.org/stories/ansons-story" class="card-link" target="_blank" >  
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-covid">
+                        <img class="reframe" data-lazy="img/project-covid.jpg" alt="A photo of Project 1">
+                        <div class="wm-flex-column project-content">
+                            <h4>Leading the SDC COVID Relief Fund</h4>
+                            <ul class="wm-hl">
+                                <li>Community</li>
+                                <li>Project Management</li>
+                            </ul>
+                            <p>The SDC COVID-19 Relief Fund was a joint effort between 10 
+                                organizations to provide PPE to senior homes. In the end, 
+                                we were able to provide a total of 22,000 masks to 32 homes.
+                            </p>
+                        </div>
+                    </div>
+                </a>
                 <a name="Link to DSDC Academy Website" rel="noopener" href="https://dsdc.ca/" class="card-link" target="_blank" >  
-                    <div class="wm-card wm-hover wm-flex-column" id="project-debate">
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-debate">
                         <img class="reframe" data-lazy="img/project-debate.jpg" alt="A photo of a DSDC student">
-                        <h4>Teaching debate at DSDC</h4>
-                        <ul class="wm-hl">
-                            <li>Debate</li>
-                            <li>Community</li>
-                        </ul>
-                        <p>Debate and Speech Development Community is an academy for young scholars with
-                            a focus on discussing important global issues and developing skills.       
-                        </p>
+                        <div class="wm-flex-column project-content">
+                            <h4>Teaching debate at DSDC</h4>
+                            <ul class="wm-hl">
+                                <li>Debate</li>
+                                <li>Community</li>
+                            </ul>
+                            <p>Debate and Speech Development Community is an academy for young scholars with
+                                a focus on developing skills. Here, I've given workshops introducting AI, philisophy, food security, and more.     
+                            </p>
+                        </div>
                     </div>
                 </a>
-                <a name="Link to Personal Website" rel="noopener" href="https://ansonyu.ca/" class="card-link" target="_blank" >  
-                    <div class="wm-card wm-hover wm-flex-column" id="project-website">
-                        <img class="reframe" data-lazy="img/project-website.png" alt="A photo of a leaf animation from this website">
-                        <h4>Making this website</h4>
-                        <ul class="wm-hl">
-                            <li>Learning</li>
-                            <li>UI/UX</li>
-                        </ul>
-                        <p>First time doing web development! This website and its subpages are made entirely 
-                            from scratch, using HTML, CSS, and a little vanilla JS.
-                        </p>
-                    </div>
-                </a>
-                <a name="Link to SDC Website" rel="noopener" href="https://www.socialdiversity.org/" class="card-link" target="_blank" >  
-                    <div class="wm-card wm-hover wm-flex-column" id="project-sequioa">
-                        <img class="reframe" data-lazy="img/project-sequioa.png" alt="A photo of the SDC Mascot">
-                        <h4>Developing a Slack bot</h4>
-                        <ul class="wm-hl">
-                            <li>Community</li>
-                            <li>Programming</li>
-                        </ul>
-                        <p>First node.js application. Sequoia is a Slack bot that onboards SDC volunteers,
-                            calculates points, and runs registration for community events to empower children
-                            with disabilities.
-                        </p>
-                    </div>
-                </a>
-            </div>
+
         
         </section>
+
+              <!-- Obsessions -->
+              <section class="wm-section" id="section-projects">
+                <h3 class="wm-section-title">What I'm currently obsessed with...</h3>
+    
+                <div class="wm-flex-row wm-flex-33" id="">
+                    <a name="Link to vlogbrothers channel" rel="noopener" href="https://www.youtube.com/user/vlogbrothers" class="card-link" target="_blank" >  
+                        <div class="wm-card wm-hover wm-flex-column" id="obsession-vlogbrothers">
+                            
+                            <h4>The vlogbrothers</h4>
+                        
+                            <p>My role models that I've never met. For 7 years, they've been a guiding light for choosing what to value, love, and act on. 
+                            </p>
+                        </div>
+                    </a>
+                    <a name="Link to precision farming article" rel="noopener" href="https://www.futurefarming.com/Tools-data/Articles/2019/5/Precision-farming-is-key-to-growing-better-crops-421886E/" class="card-link" target="_blank" >  
+                        <div class="wm-card wm-hover wm-flex-column" id="obsession-vlogbrothers">
+                            
+                            <h4>Precision farming</h4>
+                    
+                            <p>The underrated and overlooked tech sector that's quietly revolutionizing our food chains. 
+                            </p>
+                        </div>
+                    </a>
+                    <a name="Link to korean barley tea recipe" rel="noopener" href="https://mykoreankitchen.com/korean-barley-tea-boricha/" class="card-link" target="_blank" >  
+                        <div class="wm-card wm-hover wm-flex-column" >
+                            
+                            <h4>Korean barley tea</h4>
+                    
+                            <p>As someone that can absolutely not drink caffiene, korean barley tea is the rich, warm drink that I have been missing.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a name="Link to 80's dating video" href="" rel="noopener" href="https://www.youtube.com/watch?v=0bomkgXeDkE&t=1s" class="card-link" target="_blank" > 
+                        <div class="wm-card wm-hover wm-flex-column">
+                            <h4>Dating videos from the 1980's</h4>
+                            <p>Sounds weird but if you say it doesn't make you laugh, 
+                                you're lying.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            
+            </section>
 
         <!-- Other things -->
         <!-- <section class="wm-section" id="section-journal">
@@ -234,10 +290,14 @@
 
         <!-- Video -->
         <section class="wm-section" id="section-video">
-            <h3 class=".wm-section-title">Cinema Reel</h3>
-                <div class="wm-flex-column" id="video-cinematogrpahy">
-                    <iframe width=100% height=450 title="Cinema Reel" rel="noopener" src="https://www.youtube.com/embed/pwU85yTJfYY?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+            <h3 class="wm-section-title">Cinema Reel</h3>
+                <div class="wm-flex-row">
+                    <div class="wm-flex-column" id="video-cinematography">
+                        <iframe width=100% height=450 title="Cinema Reel" rel="noopener" src="https://www.youtube.com/embed/pwU85yTJfYY?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                
+            </div>   
         </section>
 
     </body>
