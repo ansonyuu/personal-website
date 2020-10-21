@@ -30,7 +30,7 @@
   align-items: center;
   border-radius: 5px;
   background-color: var(--wm-colours-light);
-  /* box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16) */
+  box-shadow: 0 5px 5px rgba(27, 33, 48,0.18), 0 5px 5px rgba(27, 33, 48,0.16) 
 }
 
 

@@ -361,6 +361,10 @@ footer {
         color: black;
     }
 
+    h4{
+        color: var(--wm-colours-dark);
+    }
+
     /* General - Navigation */
     .nav {
         z-index: 4;
